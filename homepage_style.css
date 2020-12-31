@@ -1,0 +1,11 @@
+.container-fluid.title {
+    color: rgb(255, 255, 255);
+    background-color:rgb(123, 187, 218);
+    font-family: title-font;
+    font-size: small;
+}
+
+@font-face {
+  font-family: title-font;
+  src: url(Cinzel-Regular.ttf);
+}
