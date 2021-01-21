@@ -19,3 +19,14 @@ barplot(c_comsci_grads_2016$VALUE,names.arg=c_comsci_grads_2016$GEO,
         col="darkorange1",
         main="Geographic Location of Canadian Computer Science Graduates (2016)",
         border="black")
+
+# Read Canadian computer science graduate data from 2017
+c_comsci_grads_2017 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2017.csv")
+
+#Create a bar graph to the show distribution of graduates from the year 2017
+barplot(c_comsci_grads_2017$VALUE,names.arg=c_comsci_grads_2017$GEO,
+        xlab="Province",
+        ylab="Number of Graduates",
+        col="azure4",
+        main="Geographic Location of Canadian Computer Science Graduates (2017)",
+        border="black")
