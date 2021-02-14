@@ -1,20 +1,14 @@
-﻿"Table 1 – Enrolments in Canadian universities and colleges, by field of study, 2015/2016 and 2016/2017"
-," University",,," College",,,
-" "," 2015/2016"," 2016/2017"," % change"," 2015/2016"," 2016/2017"," % change"
-"Total, field of study","1306251","1320735","1.1","721428","731130","1.3"
-"Personal improvement and leisure","3549","2865","-19.3","19269","18312","-5.0"
-"Education","76962","77337","0.5","12669","12279","-3.1"
-"Visual and performing arts, and communications technologies","42306","42309","0.0","34653","34695","0.1"
-"Humanities","169074","164268","-2.8","95271","94620","-0.7"
-"Social and behavioural sciences, and law","227691","227409","-0.1","47745","47706","-0.1"
-"Business, management and public administration","246699","249951","1.3","118248","124044","4.9"
-"Physical and life sciences, and technologies","126333","129708","2.7","33234","33831","1.8"
-"Mathematics, computer and information sciences","48597","53739","10.6","20214","23568","16.6"
-"Architecture, engineering and related technologies","131379","135528","3.2","81243","83049","2.2"
-"Agriculture, natural resources and conservation","22389","23064","3.0","7401","7977","7.8"
-"Health and related fields","161106","162990","1.2","89865","92124","2.5"
-"Personal, protective and transportation services","7263","7326","0.9","32502","32607","0.3"
-"Other fields of study","42903","44244","3.1","129120","126312","-2.2"
-"","","","","","",""
-"Source(s):"
-"Postsecondary Student Information System (5017)."
+﻿"Total, field of study", 2015/2016_University, 2016/2017_University, % change_University, 2015/2016_College, 2016/2017_College, % change_College
+Personal improvement and leisure,3549,2865,-19.3,19269,18312,-5
+Education,76962,77337,0.5,12669,12279,-3.1
+"Visual and performing arts, and communications technologies",42306,42309,0,34653,34695,0.1
+Humanities,169074,164268,-2.8,95271,94620,-0.7
+"Social and behavioural sciences, and law",227691,227409,-0.1,47745,47706,-0.1
+"Business, management and public administration",246699,249951,1.3,118248,124044,4.9
+"Physical and life sciences, and technologies",126333,129708,2.7,33234,33831,1.8
+"Mathematics, computer and information sciences",48597,53739,10.6,20214,23568,16.6
+"Architecture, engineering and related technologies",131379,135528,3.2,81243,83049,2.2
+"Agriculture, natural resources and conservation",22389,23064,3,7401,7977,7.8
+Health and related fields,161106,162990,1.2,89865,92124,2.5
+"Personal, protective and transportation services",7263,7326,0.9,32502,32607,0.3
+Other fields of study,42903,44244,3.1,129120,126312,-2.2

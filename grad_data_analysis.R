@@ -233,3 +233,36 @@ barplot(i_agr_grads_2017$VALUE,
         col="azure4",
         main="Geographic Location of International Agriculture Graduates (2017)",
         border="black")
+
+# -----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------
+
+# Read Canadian university enrollment data from the years 2015-2017
+enrollments <- read.csv("~/Education Research Project/harman-khehara.github.io/enrolments_in_canadian universities_and_colleges_by_field_of_study_20152016_and_20162017.csv")
+
+par(mgp=c(5,1,0))
+par(mar=c(6,6,2,2))
+
+yearly.enrollments <- rbind(enrollments$Â.2015.2016_University, enrollments$Â.2016.2017_University)
+
+# Create a bar graph to show distribution of enrollments in Canadian Universities (2015-2017)
+barplot(yearly.enrollments,
+        names.arg=c("[1]","[2]","[3]","[4]","[5]","[6]","[7]","[8]","[9]","[10]","[11]","[12]","[13]"),
+        xlab="Field of Study",
+        ylab="Number of Enrollments",
+        col=c("aquamarine3", "hotpink3"),
+        main="Enrollments in Canadian Universities by Field of Study",
+        border="black",
+        legend.text = c("2015/2016", "2016/2017"),
+        args.legend = list(cex=0.75, x = "topright"),
+        beside=TRUE,
+        las=1)
+
+# Read total number of grad data for Canadian agriculture students from the years 2015-2017
+c_total_agr_grads <- read.csv("~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_20152017.csv")
+
+# Create a linear regression model to predict avergae number of international agriculture graduates in a year
+linear_model_i_agr = lm(total_agr_grads$VALUE~total_agr_grads$ï..REF_DATE)
+summary(linear_model_i_agr)
+
