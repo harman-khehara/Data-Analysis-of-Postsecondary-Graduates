@@ -2,8 +2,7 @@
     height: auto;
     animation-name: title-animation;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
-
+    animation-iteration-count: infinite; 
 }
 
 #title {
@@ -20,6 +19,22 @@
   font-family: title-font;
   text-align: right;
   padding: 30px;
+}
+
+.navbar.navbar-expand-lg.nav-bar {
+  background-color: rgb(2, 43, 120);
+}
+
+#navbar-text {
+  color:  rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: title-font;
+}
+
+#navbar-text:hover {
+  color:  rgb(193, 215, 224);
+  font-size: 17px;
+  font-family: title-font;
 }
 
 @font-face {
