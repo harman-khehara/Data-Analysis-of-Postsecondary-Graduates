@@ -34,6 +34,20 @@ barplot(c_comsci_grads_2017$VALUE,
         main="Geographic Location of Canadian Computer Science Graduates (2017)",
         border="black")
 
+# Create a box plot with three columns of data for Canadian computer science grads
+par(mfrow=c(1,3))
+boxplot(c_comsci_grads_2015$VALUE, main="Number of Canadian Computer Science Graduates (2015)",
+          xlab ="Number of Graduates", col="dodgerblue", horizontal=TRUE)
+boxplot(c_comsci_grads_2016$VALUE, main="Number of Canadian Computer Science Graduates (2016)",
+        xlab ="Number of Graduates", col="darkorange1", horizontal=TRUE)
+boxplot(c_comsci_grads_2017$VALUE, main="Number of Canadian Computer Science Graduates (2017)",
+        xlab ="Number of Graduates", col="azure4", horizontal=TRUE)
+
+# Display boxplot values
+summary(c_comsci_grads_2015$VALUE)
+summary(c_comsci_grads_2016$VALUE)
+summary(c_comsci_grads_2017$VALUE)
+
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
@@ -73,6 +87,20 @@ barplot(c_eng_grads_2017$VALUE,
         col="azure4",
         main="Geographic Location of Canadian Engineering Graduates (2017)",
         border="black")
+
+# Create a box plot with three columns of data for Canadian engineering grads
+par(mfrow=c(1,3))
+boxplot(c_eng_grads_2015$VALUE, main="Number of Canadian Engineering Graduates (2015)",
+        xlab ="Number of Graduates", col="dodgerblue", horizontal=TRUE)
+boxplot(c_eng_grads_2016$VALUE, main="Number of Canadian Engineering Graduates (2016)",
+        xlab ="Number of Graduates", col="darkorange1", horizontal=TRUE)
+boxplot(c_eng_grads_2017$VALUE, main="Number of Canadian Engineering Graduates (2017)",
+        xlab ="Number of Graduates", col="azure4", horizontal=TRUE)
+
+# Display boxplot values
+summary(c_eng_grads_2015$VALUE)
+summary(c_eng_grads_2016$VALUE)
+summary(c_eng_grads_2017$VALUE)
 
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
@@ -114,6 +142,20 @@ barplot(c_agr_grads_2017$VALUE,
         main="Geographic Location of Agriculture Graduates (2017)",
         border="black")
 
+# Create a box plot with three columns of data for Canadian Agriculture grads
+par(mfrow=c(1,3))
+boxplot(c_agr_grads_2015$VALUE, main="Number of Canadian Agriculture Graduates (2015)",
+        xlab ="Number of Graduates", col="dodgerblue", horizontal=TRUE)
+boxplot(c_agr_grads_2016$VALUE, main="Number of Canadian Agriculture Graduates (2016)",
+        xlab ="Number of Graduates", col="darkorange1", horizontal=TRUE)
+boxplot(c_agr_grads_2017$VALUE, main="Number of Canadian Agriculture Graduates (2017)",
+        xlab ="Number of Graduates", col="azure4", horizontal=TRUE)
+
+# Display boxplot values
+summary(c_agr_grads_2015$VALUE)
+summary(c_agr_grads_2016$VALUE)
+summary(c_agr_grads_2017$VALUE)
+
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
@@ -153,6 +195,20 @@ barplot(i_comsci_grads_2017$VALUE,
         col="azure4",
         main="Geographic Location of International Computer Science Graduates (2017)",
         border="black")
+
+# Create a box plot with three columns of data for International computer science grads
+par(mfrow=c(1,3))
+boxplot(i_comsci_grads_2015$VALUE, main="Number of International Computer Science Graduates (2015)",
+        xlab ="Number of Graduates", col="dodgerblue", horizontal=TRUE)
+boxplot(i_comsci_grads_2016$VALUE, main="Number of International Computer Science Graduates (2016)",
+        xlab ="Number of Graduates", col="darkorange1", horizontal=TRUE)
+boxplot(i_comsci_grads_2017$VALUE, main="Number of International Computer Science Graduates (2017)",
+        xlab ="Number of Graduates", col="azure4", horizontal=TRUE)
+
+# Display boxplot values
+summary(i_comsci_grads_2015$VALUE)
+summary(i_comsci_grads_2016$VALUE)
+summary(i_comsci_grads_2017$VALUE)
 
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
@@ -194,6 +250,20 @@ barplot(i_eng_grads_2017$VALUE,
         main="Geographic Location of International Engineering Graduates (2017)",
         border="black")
 
+# Create a box plot with three columns of data for International engineering grads
+par(mfrow=c(1,3))
+boxplot(i_eng_grads_2015$VALUE, main="Number of International Engineering Graduates (2015)",
+        xlab ="Number of Graduates", col="dodgerblue", horizontal=TRUE)
+boxplot(i_eng_grads_2016$VALUE, main="Number of International Engineering Graduates (2016)",
+        xlab ="Number of Graduates", col="darkorange1", horizontal=TRUE)
+boxplot(i_eng_grads_2017$VALUE, main="Number of International Engineering Graduates (2017)",
+        xlab ="Number of Graduates", col="azure4", horizontal=TRUE)
+
+# Display boxplot values
+summary(i_eng_grads_2015$VALUE)
+summary(i_eng_grads_2016$VALUE)
+summary(i_eng_grads_2017$VALUE)
+
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
@@ -234,6 +304,20 @@ barplot(i_agr_grads_2017$VALUE,
         main="Geographic Location of International Agriculture Graduates (2017)",
         border="black")
 
+# Create a box plot with three columns of data for International Agriculture grads
+par(mfrow=c(1,3))
+boxplot(i_agr_grads_2015$VALUE, main="Number of International Agriculture Graduates (2015)",
+        xlab ="Number of Graduates", col="dodgerblue", horizontal=TRUE)
+boxplot(i_agr_grads_2016$VALUE, main="Number of International Agriculture Graduates (2016)",
+        xlab ="Number of Graduates", col="darkorange1", horizontal=TRUE)
+boxplot(i_agr_grads_2017$VALUE, main="Number of International Agriculture Graduates (2017)",
+        xlab ="Number of Graduates", col="azure4", horizontal=TRUE)
+
+# Display boxplot values
+summary(i_agr_grads_2015$VALUE)
+summary(i_agr_grads_2016$VALUE)
+summary(i_agr_grads_2017$VALUE)
+
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
@@ -262,7 +346,7 @@ barplot(yearly.enrollments,
 # Read total number of grad data for Canadian agriculture students from the years 2015-2017
 c_total_agr_grads <- read.csv("~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_20152017.csv")
 
-# Create a linear regression model to predict avergae number of international agriculture graduates in a year
+# Create a linear regression model to predict avergae number of Canadian agriculture graduates in a year
 linear_model_i_agr = lm(total_agr_grads$VALUE~total_agr_grads$ï..REF_DATE)
 summary(linear_model_i_agr)
 
