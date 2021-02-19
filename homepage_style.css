@@ -30,6 +30,15 @@
   padding: 15px;
 }
 
+#download-title {
+  color:  black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: title-font;
+  text-align: left;
+  padding: 15px;
+}
+
 #enrollment-description {
   color:  black;
   font-family: Arial, Helvetica, sans-serif;
@@ -40,6 +49,11 @@
 #year-button {
   border-radius: 15px;
   background-color: coral;
+}
+
+#year-button:hover {
+  border-radius: 15px;
+  background-color: grey;
 }
 
 #my-name {
