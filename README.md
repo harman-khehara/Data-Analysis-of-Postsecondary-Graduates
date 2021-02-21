@@ -49,7 +49,7 @@
 
 <h2 id="notes">Notes</h2>
 
-<p>This is a personal research project done entirely for the purpose of my own personal development in the field of statistcal research and analysis and web development.</p>
+<p>This is a personal research project done entirely for the purpose of my own personal development in the fields of statistcal research and web development.</p>
 
 
 
