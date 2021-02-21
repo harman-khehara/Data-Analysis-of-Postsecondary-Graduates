@@ -18,5 +18,19 @@
 
 <p>This website to display the findings of my research was developed using HTML5, CSS3 and the <a href="https://getbootstrap.com/">Bootstrap</a> CSS framework to help create a responsive design.</p>
 
+<table>
+      <tr>
+        <th>
+          <img width="350" height"150" src="images/home_video.gif">
+        </th>
+        <th>
+          <img width="350" height"150" src="images/data_video.gif">
+        </th>
+        <th>
+          <img width="350" height"150" src="images/analysis_video.gif">
+        </th>
+      </tr>
+</table>
+
 
 
