@@ -1,4 +1,4 @@
-# Statistical Data Analysis of Postsecondary Graduates from Canadian Universities
+# Statistical Data Analysis of Postsecondary Graduates from Canadian Universities :bar_chart:
 
 <p>This repository is dedicated to the files associated with my personal research project.</p>
 
