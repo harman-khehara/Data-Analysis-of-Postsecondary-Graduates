@@ -16,7 +16,7 @@
 
 <h2>Web Development</h2>
 
-<p>This website to display the findings of my research was developed using HTML5, CSS3 and the <a href="https://getbootstrap.com/">Bootstrap</a> CSS framework.</p>
+<p>This website to display the findings of my research was developed using HTML5, CSS3 and the <a href="https://getbootstrap.com/">Bootstrap</a> CSS framework to help create a responsive design.</p>
 
 
 
