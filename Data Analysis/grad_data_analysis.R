@@ -1,5 +1,5 @@
 # Read Canadian computer science graduate data from 2015
-c_comsci_grads_2015 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2015.csv")
+c_comsci_grads_2015 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2015.csv")
 
 par(mfrow=c(1,3))
 
@@ -13,7 +13,7 @@ barplot(c_comsci_grads_2015$VALUE,
         border="black")
 
 # Read Canadian computer science graduate data from 2016
-c_comsci_grads_2016 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2016.csv")
+c_comsci_grads_2016 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2016.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2016
 barplot(c_comsci_grads_2016$VALUE,
@@ -25,7 +25,7 @@ barplot(c_comsci_grads_2016$VALUE,
         border="black")
 
 # Read Canadian computer science graduate data from 2017
-c_comsci_grads_2017 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2017.csv")
+c_comsci_grads_2017 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2017.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2017
 barplot(c_comsci_grads_2017$VALUE,
@@ -55,7 +55,7 @@ summary(c_comsci_grads_2017$VALUE)
 # -----------------------------------------------------------------------------------------
 
 # Read Canadian engineering graduate data from 2015
-c_eng_grads_2015 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2015.csv")
+c_eng_grads_2015 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2015.csv")
 
 par(mfrow=c(1,3))
 
@@ -69,7 +69,7 @@ barplot(c_eng_grads_2015$VALUE,
         border="black")
 
 # Read Canadian engineering graduate data from 2016
-c_eng_grads_2016 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2016.csv")
+c_eng_grads_2016 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2016.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2016
 barplot(c_eng_grads_2016$VALUE,
@@ -81,7 +81,7 @@ barplot(c_eng_grads_2016$VALUE,
         border="black")
 
 # Read Canadian engineering graduate data from 2017
-c_eng_grads_2017 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2017.csv")
+c_eng_grads_2017 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2017.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2017
 barplot(c_eng_grads_2017$VALUE,
@@ -111,7 +111,7 @@ summary(c_eng_grads_2017$VALUE)
 # -----------------------------------------------------------------------------------------
 
 # Read Canadian agriculture graduate data from 2015
-c_agr_grads_2015 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2015.csv")
+c_agr_grads_2015 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2015.csv")
 
 par(mfrow=c(1,3))
 
@@ -125,7 +125,7 @@ barplot(c_agr_grads_2015$VALUE,
         border="black")
 
 # Read Canadian agriculture graduate data from 2016
-c_agr_grads_2016 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2016.csv")
+c_agr_grads_2016 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2016.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2016
 barplot(c_agr_grads_2016$VALUE,
@@ -137,7 +137,7 @@ barplot(c_agr_grads_2016$VALUE,
         border="black")
 
 # Read Canadian agriculture graduate data from 2017
-c_agr_grads_2017 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2017.csv")
+c_agr_grads_2017 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2017.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2017
 barplot(c_agr_grads_2017$VALUE,
@@ -167,7 +167,7 @@ summary(c_agr_grads_2017$VALUE)
 # -----------------------------------------------------------------------------------------
 
 # Read International computer science graduate data from 2015
-i_comsci_grads_2015 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/international_grad_data_by_year/computer_science/international_graduates_computer_science_2015.csv")
+i_comsci_grads_2015 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/international_grad_data_by_year/computer_science/international_graduates_computer_science_2015.csv")
 
 par(mfrow=c(1,3))
 
@@ -181,7 +181,7 @@ barplot(i_comsci_grads_2015$VALUE,
         border="black")
 
 # Read International computer science data from 2016
-i_comsci_grads_2016 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/international_grad_data_by_year/computer_science/international_graduates_computer_science_2016.csv")
+i_comsci_grads_2016 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/international_grad_data_by_year/computer_science/international_graduates_computer_science_2016.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2016
 barplot(i_comsci_grads_2016$VALUE,
@@ -193,7 +193,7 @@ barplot(i_comsci_grads_2016$VALUE,
         border="black")
 
 # Read International computer science data from 2017
-i_comsci_grads_2017 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/international_grad_data_by_year/computer_science/international_graduates_computer_science_2017.csv")
+i_comsci_grads_2017 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/international_grad_data_by_year/computer_science/international_graduates_computer_science_2017.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2017
 barplot(i_comsci_grads_2017$VALUE,
@@ -223,7 +223,7 @@ summary(i_comsci_grads_2017$VALUE)
 # -----------------------------------------------------------------------------------------
 
 # Read International engineering graduate data from 2015
-i_eng_grads_2015 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/international_grad_data_by_year/engineering/international_graduates_engineering_2015.csv")
+i_eng_grads_2015 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/international_grad_data_by_year/engineering/international_graduates_engineering_2015.csv")
 
 par(mfrow=c(1,3))
 
@@ -237,7 +237,7 @@ barplot(i_eng_grads_2015$VALUE,
         border="black")
 
 # Read International engineering data from 2016
-i_eng_grads_2016 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/international_grad_data_by_year/engineering/international_graduates_engineering_2016.csv")
+i_eng_grads_2016 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/international_grad_data_by_year/engineering/international_graduates_engineering_2016.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2016
 barplot(i_eng_grads_2016$VALUE,
@@ -249,7 +249,7 @@ barplot(i_eng_grads_2016$VALUE,
         border="black")
 
 # Read International engineering data from 2017
-i_eng_grads_2017 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/international_grad_data_by_year/engineering/international_graduates_engineering_2017.csv")
+i_eng_grads_2017 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/international_grad_data_by_year/engineering/international_graduates_engineering_2017.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2017
 barplot(i_eng_grads_2017$VALUE,
@@ -279,7 +279,7 @@ summary(i_eng_grads_2017$VALUE)
 # -----------------------------------------------------------------------------------------
 
 # Read International agriculture graduate data from 2015
-i_agr_grads_2015 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2015.csv")
+i_agr_grads_2015 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2015.csv")
 
 par(mfrow=c(1,3))
 
@@ -293,7 +293,7 @@ barplot(i_agr_grads_2015$VALUE,
         border="black")
 
 # Read International agriculture data from 2016
-i_agr_grads_2016 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2016.csv")
+i_agr_grads_2016 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2016.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2016
 barplot(i_agr_grads_2016$VALUE,
@@ -305,7 +305,7 @@ barplot(i_agr_grads_2016$VALUE,
         border="black")
 
 # Read International agriculture data from 2017
-i_agr_grads_2017 <- read.csv(file="~/Education Research Project/harman-khehara.github.io/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2017.csv")
+i_agr_grads_2017 <- read.csv(file="~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2017.csv")
 
 # Create a bar graph to the show distribution of graduates from the year 2017
 barplot(i_agr_grads_2017$VALUE,
@@ -335,12 +335,12 @@ summary(i_agr_grads_2017$VALUE)
 # -----------------------------------------------------------------------------------------
 
 # Read Canadian university enrollment data from the years 2015-2017
-enrollments <- read.csv("~/Education Research Project/harman-khehara.github.io/enrolments_in_canadian universities_and_colleges_by_field_of_study_20152016_and_20162017.csv")
+enrollments <- read.csv("~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/enrolments_in_canadian universities_and_colleges_by_field_of_study_20152016_and_20162017.csv")
 
 par(mgp=c(5,1,0))
 par(mar=c(6,6,2,2))
 
-yearly.enrollments <- rbind(enrollments$Â.2015.2016_University, enrollments$Â.2016.2017_University)
+yearly.enrollments <- rbind(enrollments$ï¿½.2015.2016_University, enrollments$ï¿½.2016.2017_University)
 
 # Create a bar graph to show distribution of enrollments in Canadian Universities (2015-2017)
 barplot(yearly.enrollments,
@@ -356,9 +356,9 @@ barplot(yearly.enrollments,
         las=1)
 
 # Read total number of grad data for Canadian agriculture students from the years 2015-2017
-c_total_agr_grads <- read.csv("~/Education Research Project/harman-khehara.github.io/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_20152017.csv")
+c_total_agr_grads <- read.csv("~/Education Research Project/Data-Analysis-of-Postsecondary-Graduates/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_20152017.csv")
 
 # Create a linear regression model to predict avergae number of Canadian agriculture graduates in a year
-linear_model_i_agr = lm(c_total_agr_grads$VALUE~c_total_agr_grads$ï..REF_DATE)
+linear_model_i_agr = lm(c_total_agr_grads$VALUE~c_total_agr_grads$ï¿½..REF_DATE)
 summary(linear_model_i_agr)
 

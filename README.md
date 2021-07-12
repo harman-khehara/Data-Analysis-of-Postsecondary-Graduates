@@ -2,7 +2,7 @@
 
 <p>This repository is dedicated to the files associated with my personal research project.</p>
 
-<p>The findings of this research project are presented on the following <a target="_blank" href="https://harman-khehara.github.io/">website</a>, all supplementary files, including Python and R scripts can be found in <a href="https://github.com/harman-khehara/harman-khehara.github.io">this</a> repository.</p>
+<p>The findings of this research project are presented on the following <a target="_blank" href="https://Data-Analysis-of-Postsecondary-Graduates/">website</a>, all supplementary files, including Python and R scripts can be found in <a href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates">this</a> repository.</p>
 
 <p>The aim of this research is to analyze the number of Canadian and international postsecondary graduates in the fields of natural conservation, engineering and, computational sciences to determine how the number of graduates meet the needs of growing climate and technological demand in the coming years.</p>
 
@@ -17,7 +17,7 @@
 
 <p>All datasets for this project were obtained from <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710002001">Statistics Canada</a> and downloaded as <b>csv files</b>.</p>
 
-<p>I wrote <b>Python scripts</b> to automate the process of manipulating the csv files. In addition, I used Python and the <a href="https://pandas.pydata.org/"><b>pandas</b></a> software library to create a program which can convert the csv files to an HTML table which can be used to display the csv files on the follwing <a target="_blank" href="https://harman-khehara.github.io/">website</a>.</p>
+<p>I wrote <b>Python scripts</b> to automate the process of manipulating the csv files. In addition, I used Python and the <a href="https://pandas.pydata.org/"><b>pandas</b></a> software library to create a program which can convert the csv files to an HTML table which can be used to display the csv files on the follwing <a target="_blank" href="https://Data-Analysis-of-Postsecondary-Graduates/">website</a>.</p>
 
 <p>The data analysis of the csv files was conducted using both <b>Microsoft Excel</b> and <b>R/RStudio</b>. I created <b>relevant graphs</b>, <b>boxplots</b> and obtained the <b>summary statistics</b> for each dataset to conduct the analysis.</p>
 
@@ -41,7 +41,7 @@
 
 <h2 id="installation">Installation Requirements</h2>
 
-<p>If you wish to view the code for this project, you may <code>git clone</code> this repository or simply click on the file you would like to view. This research project is summarized on the following <a target="_blank" href="https://harman-khehara.github.io/">website</a>.</p>
+<p>If you wish to view the code for this project, you may <code>git clone</code> this repository or simply click on the file you would like to view. This research project is summarized on the following <a target="_blank" href="https://Data-Analysis-of-Postsecondary-Graduates/">website</a>.</p>
 
 <h2 id="contributors">Contributors</h2>
 
