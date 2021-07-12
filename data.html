@@ -2,151 +2,287 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Statistical data analysis of Canadian postsecondary graduates">
-    <meta name="author" content="Harman Khehara">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"  rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="homepage_style.css" rel="stylesheet">
-    <title>
-        Data
-    </title>
+  <meta charset="utf-8">
+  <meta name="description" content="Statistical data analysis of Canadian postsecondary graduates">
+  <meta name="author" content="Harman Khehara">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="homepage_style.css" rel="stylesheet">
+  <title>
+    Data
+  </title>
 </head>
 
 <body>
-    <div class="container-fluid title">
-        <h1 id="title">Statistical Data Analysis of Postsecondary Graduates from Canadian Universities</h1>
-        <h6 id="my-name">Harman Khehara</h6>
-    </div>
+  <div class="container-fluid title">
+    <h1 id="title">Statistical Data Analysis of Postsecondary Graduates from Canadian Universities</h1>
+    <h6 id="my-name">Harman Khehara</h6>
+  </div>
 
-    <nav class="navbar navbar-expand-lg nav-bar">
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html" id="navbar-text">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="data.html" id="navbar-text">Datasets</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="analysis.html" id="navbar-text">Data Analysis</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg nav-bar">
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" id="navbar-text">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html" id="navbar-text">Datasets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="analysis.html" id="navbar-text">Data Analysis</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="accordion accordion-flush" id="accordionExample">
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Canadian University Enrollment Numbers for 2015-2017
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="row" id="enrollment-description">
+            <div class="alert alert-warning" role="alert">
+              The following table contains data on the number of students enrolled in Canadian Universities as well as
+              the
+              percentage change in student enrollments from the 2015/2016 to 2016/2017 school year.
+            </div>
           </div>
-    </nav>
-
-    <div class="container-fluid">
-        <div class="container-fluid enrollments">
-            <h2 id="enrollment-title">Canadian University Enrollment Numbers for 2015-2017</h2>
+          <div class="row">
+            <iframe src="enrollments_table.html" height="300" width="1000"></iframe>
+          </div>
         </div>
-        <h4 id="enrollment-description">The following table contains data on the number of students enrolled in Canadian Universities as well as the 
-            percentage change in student enrollments from the 2015/2016 to 2016/2017 school year.
-        </h4>
-        <iframe src="enrollments_table.html" height="300" width="1000"></iframe>
+      </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="container-fluid enrollments">
-            <h2 id="enrollment-title">Canadian Graduates, Field of Study: Agriculture, Natural Resources, and Conservation</h2>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="true" aria-controls="collapseTwo">
+          Canadian University Enrollment Numbers for 2015-2017
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="row" id="enrollment-description">
+            <div class="alert alert-warning" role="alert">
+              The following table contains data on the number of students enrolled in Canadian Universities as well as
+              the
+              percentage change in student enrollments from the 2015/2016 to 2016/2017 school year.
+            </div>
+          </div>
+          <div class="row">
+            <iframe src="enrollments_table.html" height="300" width="1000"></iframe>
+          </div>
         </div>
-        
-        <h4 id="download-title">Download Datasets by Year: </h4>
-        <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2015.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
-        <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2016.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
-        <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
-        <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_20152017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
-
-        <h4 id="enrollment-description">The following table contains data on the number of Canadian graduates from Canadian universities 
-            in the fields of agriculture, natural resources and conservation from 2015-2017.
-        </h4>
-        <iframe src="c_agr.html" height="300" width="1000"></iframe>
+      </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="container-fluid enrollments">
-            <h2 id="enrollment-title">International Graduates, Field of Study: Agriculture, Natural Resources, and Conservation</h2>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
         </div>
+      </div>
+    </div>
+  </div>
 
-        <h4 id="download-title">Download Datasets by Year: </h4>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2015.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2016.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/_agriculture/international_graduates_agriculture_20152017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
-        <h4 id="enrollment-description">The following table contains data on the number of International graduates from Canadian universities 
-            in the fields of agriculture, natural resources and conservation from 2015-2017.
-        </h4>
-        <iframe src="i_agr.html" height="300" width="1000"></iframe>
+
+  <!-- Previous Code -->
+  <div class="container-fluid">
+    <div class="container-fluid enrollments">
+      <h2 id="enrollment-title">Canadian University Enrollment Numbers for 2015-2017</h2>
+    </div>
+    <h4 id="enrollment-description">The following table contains data on the number of students enrolled in Canadian
+      Universities as well as the
+      percentage change in student enrollments from the 2015/2016 to 2016/2017 school year.
+    </h4>
+    <iframe src="enrollments_table.html" height="300" width="1000"></iframe>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container-fluid enrollments">
+      <h2 id="enrollment-title">Canadian Graduates, Field of Study: Agriculture, Natural Resources, and Conservation
+      </h2>
     </div>
 
-    <div class="container-fluid">
-        <div class="container-fluid enrollments">
-            <h2 id="enrollment-title">Canadian Graduates, Field of Study: Mathematics, Computer and Information Sciences</h2>
-        </div>
+    <h4 id="download-title">Download Datasets by Year: </h4>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2015.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2016.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_2017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/_agriculture/canadian_graduates_agriculture_20152017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
 
-        <h4 id="download-title">Download Datasets by Year: </h4>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2015.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2016.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_20152017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
-        <h4 id="enrollment-description">The following table contains data on the number of Canadian graduates from Canadian universities 
-            in the fields of mathematics, computer and information sciences from 2015-2017.
-        </h4>
-        <iframe src="c_comsci.html" height="300" width="1000"></iframe>
+    <h4 id="enrollment-description">The following table contains data on the number of Canadian graduates from Canadian
+      universities
+      in the fields of agriculture, natural resources and conservation from 2015-2017.
+    </h4>
+    <iframe src="c_agr.html" height="300" width="1000"></iframe>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container-fluid enrollments">
+      <h2 id="enrollment-title">International Graduates, Field of Study: Agriculture, Natural Resources, and
+        Conservation</h2>
     </div>
 
-    <div class="container-fluid">
-        <div class="container-fluid enrollments">
-            <h2 id="enrollment-title">Inernational Graduates, Field of Study: Mathematics, Computer and Information Sciences</h2>
-        </div>
+    <h4 id="download-title">Download Datasets by Year: </h4>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2015.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2016.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/_agriculture/international_graduates_agriculture_2017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/_agriculture/international_graduates_agriculture_20152017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
+    <h4 id="enrollment-description">The following table contains data on the number of International graduates from
+      Canadian universities
+      in the fields of agriculture, natural resources and conservation from 2015-2017.
+    </h4>
+    <iframe src="i_agr.html" height="300" width="1000"></iframe>
+  </div>
 
-        <h4 id="download-title">Download Datasets by Year: </h4>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/computer_science/international_graduates_computer_science_2015.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/computer_science/international_graduates_computer_science_2016.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/computer_science/international_graduates_computer_science_2017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/computer_science/international_graduates_computer_science_20152017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
-        <h4 id="enrollment-description">The following table contains data on the number of International graduates from Canadian universities 
-            in the fields of mathematics, computer and information sciences from 2015-2017.
-        </h4>
-        <iframe src="i_comsci.html" height="300" width="1000"></iframe>
+  <div class="container-fluid">
+    <div class="container-fluid enrollments">
+      <h2 id="enrollment-title">Canadian Graduates, Field of Study: Mathematics, Computer and Information Sciences</h2>
     </div>
 
-    <div class="container-fluid">
-        <div class="container-fluid enrollments">
-            <h2 id="enrollment-title">Canadian Graduates, Field of Study: Architecture, Engineering and Related Technologies</h2>
-        </div>
-        <h4 id="download-title">Download Datasets by Year: </h4>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2015.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2016.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_20152017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
-        <h4 id="enrollment-description">The following table contains data on the number of Canadian graduates from Canadian universities 
-            in the fields of architecture, engineering and related technologies from 2015-2017.
-        </h4>
-        <iframe src="c_eng.html" height="300" width="1000"></iframe>
+    <h4 id="download-title">Download Datasets by Year: </h4>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2015.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2016.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_2017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/computer_science/canadian_graduates_computer_science_20152017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
+    <h4 id="enrollment-description">The following table contains data on the number of Canadian graduates from Canadian
+      universities
+      in the fields of mathematics, computer and information sciences from 2015-2017.
+    </h4>
+    <iframe src="c_comsci.html" height="300" width="1000"></iframe>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container-fluid enrollments">
+      <h2 id="enrollment-title">Inernational Graduates, Field of Study: Mathematics, Computer and Information Sciences
+      </h2>
     </div>
 
-    <div class="container-fluid">
-        <div class="container-fluid enrollments">
-            <h2 id="enrollment-title">International Graduates, Field of Study: Architecture, Engineering and Related Technologies</h2>
-        </div>
+    <h4 id="download-title">Download Datasets by Year: </h4>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/computer_science/international_graduates_computer_science_2015.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/computer_science/international_graduates_computer_science_2016.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/computer_science/international_graduates_computer_science_2017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/computer_science/international_graduates_computer_science_20152017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
+    <h4 id="enrollment-description">The following table contains data on the number of International graduates from
+      Canadian universities
+      in the fields of mathematics, computer and information sciences from 2015-2017.
+    </h4>
+    <iframe src="i_comsci.html" height="300" width="1000"></iframe>
+  </div>
 
-        <h4 id="download-title">Download Datasets by Year: </h4>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/engineering/international_graduates_engineering_2015.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/engineering/international_graduates_engineering_2016.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/engineering/international_graduates_engineering_2017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
-            <a target="_blank" id="year-button" href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/engineering/international_graduates_engineering_20152017.csv" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
-        <h4 id="enrollment-description">The following table contains data on the number of International graduates from Canadian universities 
-            in the fields of architecture, engineering and related technologies from 2015-2017.
-        </h4>
-        <iframe src="i_eng.html" height="300" width="1000"></iframe>
+  <div class="container-fluid">
+    <div class="container-fluid enrollments">
+      <h2 id="enrollment-title">Canadian Graduates, Field of Study: Architecture, Engineering and Related Technologies
+      </h2>
+    </div>
+    <h4 id="download-title">Download Datasets by Year: </h4>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2015.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2016.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_2017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/canadian_grad_data_by_year/engineering/canadian_graduates_engineering_20152017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
+    <h4 id="enrollment-description">The following table contains data on the number of Canadian graduates from Canadian
+      universities
+      in the fields of architecture, engineering and related technologies from 2015-2017.
+    </h4>
+    <iframe src="c_eng.html" height="300" width="1000"></iframe>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container-fluid enrollments">
+      <h2 id="enrollment-title">International Graduates, Field of Study: Architecture, Engineering and Related
+        Technologies</h2>
     </div>
 
-    <blockquote style="padding: 20px" class="blockquote">
-        <footer class="blockquote-footer">All datasets were obtained from <cite title="Source Title"><a target="_blank" href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710002001">Statistics Canada</a></cite></footer>
-      </blockquote>
+    <h4 id="download-title">Download Datasets by Year: </h4>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/engineering/international_graduates_engineering_2015.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/engineering/international_graduates_engineering_2016.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2016</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/engineering/international_graduates_engineering_2017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2017</a>
+    <a target="_blank" id="year-button"
+      href="https://github.com/harman-khehara/Data-Analysis-of-Postsecondary-Graduates/blob/main/international_grad_data_by_year/engineering/international_graduates_engineering_20152017.csv"
+      class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">2015-2017</a>
+    <h4 id="enrollment-description">The following table contains data on the number of International graduates from
+      Canadian universities
+      in the fields of architecture, engineering and related technologies from 2015-2017.
+    </h4>
+    <iframe src="i_eng.html" height="300" width="1000"></iframe>
+  </div>
+
+  <blockquote style="padding: 20px" class="blockquote">
+    <footer class="blockquote-footer">All datasets were obtained from <cite title="Source Title"><a target="_blank"
+          href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710002001">Statistics Canada</a></cite></footer>
+  </blockquote>
 
 </body>
 

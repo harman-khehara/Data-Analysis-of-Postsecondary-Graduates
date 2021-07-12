@@ -13,6 +13,18 @@
   border-radius: 25px;
 }
 
+.accordion-button:focus {
+  background-color:rgb(86, 196, 240);
+}
+
+.accordion-button:hover {
+  background-color:rgb(86, 196, 240);
+}
+
+#headingOne {
+  color: black;
+}
+
 #title {
   color:  rgb(255, 255, 255);
   font-size: 30px;
@@ -43,7 +55,7 @@
   color:  black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  padding: 10px;
+  padding: 5px;
 }
 
 #year-button {
