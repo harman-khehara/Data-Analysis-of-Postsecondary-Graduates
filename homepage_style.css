@@ -21,11 +21,13 @@
   background-color:rgb(86, 196, 240);
 }
 
-#headingOne, #headingTwo, #heading3, #heading4 {
+#headingOne, #headingTwo, #heading3, #heading4, #heading5 {
   color: black;
 }
 
-
+.container-fluid.source {
+  padding: 20px;
+}
 
 #title {
   color:  rgb(255, 255, 255);
@@ -51,6 +53,11 @@
   font-family: title-font;
   text-align: left;
   padding: 15px;
+}
+
+.alert.alert-secondary {
+  padding: 20px;
+  height: 50px;
 }
 
 #enrollment-description {
