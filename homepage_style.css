@@ -21,9 +21,11 @@
   background-color:rgb(86, 196, 240);
 }
 
-#headingOne {
+#headingOne, #headingTwo, #heading3, #heading4 {
   color: black;
 }
+
+
 
 #title {
   color:  rgb(255, 255, 255);
@@ -59,12 +61,10 @@
 }
 
 #year-button {
-  border-radius: 15px;
-  background-color: coral;
+  background-color: rgb(2, 43, 120);
 }
 
 #year-button:hover {
-  border-radius: 15px;
   background-color: grey;
 }
 
